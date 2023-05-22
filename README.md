@@ -19,15 +19,11 @@ _Next, install the basic anaconda packages, geoscience packages, xgboost and gpu
     
     conda install -c conda-forge obspy cartopy geographiclib
     
-    conda install -c conda-forge xgboost eli5
-    
-    conda install cudnn cupti cudatoolkit=10.0
-    
     
 
 _Finally, use pip to install tensorflow 2.0 with gpu support:_
 
-    pip install tensorflow-gpu
+    pip install tensorflow
     
     
 ### _Running the Notebook:_
