@@ -14,7 +14,7 @@ _Ensure that Anaconda is installed on your system, then create a new conda virtu
     conda activate BazEnv
     
     
-### _Use PIP3 to create the Python Environment:_
+### _Use VENV to create the Python Environment:_
 
 _Ensure that venv is installed on your system, then create a new virtual environment:_
 
