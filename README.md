@@ -1,6 +1,8 @@
 # baz-net
 A Deep Neural Network for Confident Three-component Backazimuth Prediction
 
+_Save the contents of this git repository to your local computer, open a terminal in the folder where it resides, then type the following:_
+
 # Setup the Environment:
 
 ### _Use CONDA to create the Python Environment:_
@@ -23,7 +25,7 @@ _Ensure that venv is installed on your system, then create a new virtual environ
     
 # Running the Notebook:
 
-_Save the contents of this git repository to your local computer, open a terminal in the folder where it resides, activate your env created above, then type the following:_
+_Open a terminal in the folder where you saved this repository, activate your env created above, then type the following:_
     
     jupyter notebook
     
