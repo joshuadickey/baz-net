@@ -3,34 +3,27 @@ A Deep Neural Network for Confident Three-component Backazimuth Prediction
 
 # Setup the Environment:
 
-### _Creating the Python Environment:_
+### _Use CONDA to create the Python Environment:_
 
-_Ensure that Anaconda is installed on your system, then create a new conda virtual environment named __SeisTF2__, and activate it:_
+_Ensure that Anaconda is installed on your system, then create a new conda virtual environment named __BazEnv__, and activate it:_
 
-    conda create -n SeisTF2
+    conda env create -f environment.yml
 
-    conda activate SeisTF2
+    conda activate BazEnv
     
     
+### _Use PIP3 to create the Python Environment:_
 
-_Next, install the basic anaconda packages, geoscience packages, xgboost and gpu acceleration packages:_
+_Ensure that venv is installed on your system, then create a new virtual environment:_
 
-    conda install -c anaconda anaconda
-    
-    conda install -c conda-forge obspy cartopy geographiclib
-    
-    
+    python3 -m venv env
 
-_Finally, use pip to install tensorflow 2.0 with gpu support:_
-
-    pip install tensorflow
+    python3 -m pip install -r requirements.txt
     
     
-### _Running the Notebook:_
+# Running the Notebook:
 
-_Save the contents of this git repository to your local computer, open a terminal in the folder where it resides, then type the following:_
-
-    conda activate SeisTF2
+_Save the contents of this git repository to your local computer, open a terminal in the folder where it resides, activate your env created above, then type the following:_
     
     jupyter notebook
     
