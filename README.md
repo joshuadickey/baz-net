@@ -20,10 +20,11 @@ _Ensure that venv is installed on your system, then create a new virtual environ
 
     python3 -m venv env
 
-    python3 -m pip install -r requirements.txt
-    
     source env/bin/activate
     
+    python3 -m pip install -r requirements.txt
+    
+ 
     
 # Running the Notebook:
 
